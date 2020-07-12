@@ -1,7 +1,6 @@
 {
   "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
   "homepage": "/",
   "main": "src/index.js",
   "dependencies": {
@@ -16,7 +15,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "CI= react-scripts build",
-    "predeploy": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
