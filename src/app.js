@@ -11,8 +11,8 @@ function App() {
     display: 'flex',
     flexDirection: 'row',
     width: '100%',
-    justifyContent: 'space-around'
-  }
+    justifyContent: 'space-around',
+  };
   return (
     <>
       <Header />
@@ -22,7 +22,7 @@ function App() {
       </main>
       <Footer />
     </>
-  )
+  );
 }
 
 export default App;

@@ -5,10 +5,10 @@ import products from './products.js';
 import cart from './cart.js';
 
 
-const rootReducer = combineReducers({categories, products, cart})
+const rootReducer = combineReducers({categories, products, cart});
 
 const store = () => {
-    return createStore(rootReducer, composeWithDevTools());
-}
+  return createStore(rootReducer, composeWithDevTools());
+};
 
 export default store();
