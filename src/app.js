@@ -6,11 +6,18 @@ import Products from './components/products.js';
 
 
 function App() {
+  const styles = {
+    height: '990px',
+    display: 'flex',
+    flexDirection: 'row',
+    width: '100%',
+    justifyContent: 'space-around'
+  }
   return (
     <>
       <Header />
-      <main style={{height: 85 + 'vh'}}>
-        <Categories />
+      <Categories />
+      <main style={styles}>
         <Products />
       </main>
       <Footer />
