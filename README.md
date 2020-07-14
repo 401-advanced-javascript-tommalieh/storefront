@@ -1,4 +1,4 @@
-# LAB - Class 37
+# LAB - Class 38
 
 # storefront
 
@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-tommalieh/storefront/pull/3)
+- [submission PR](https://github.com/401-advanced-javascript-tommalieh/storefront/pull/4)
 
 
 #### How to initialize/run your application
