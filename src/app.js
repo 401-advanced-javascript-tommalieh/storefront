@@ -7,7 +7,7 @@ import Products from './components/products.js';
 
 function App() {
   const styles = {
-    height: '990px',
+    height: 'fit-content',
     display: 'flex',
     flexDirection: 'row',
     width: '100%',

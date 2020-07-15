@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-tommalieh/storefront/pull/4)
+- [submission PR](https://github.com/401-advanced-javascript-tommalieh/storefront/pull/5)
 
 
 #### How to initialize/run your application
