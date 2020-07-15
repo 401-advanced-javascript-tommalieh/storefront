@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 // const initialState = 
 //     [
 //       {
@@ -50,19 +51,17 @@ export default (state = initialState, action) => {
   case 'GET':
     console.log(payload);
     console.log(payload.results[0]);
-    // eslint-disable-next-line array-callback-return
     payload.results.map((product)=>{
-      product.inStock= Math.floor(Math.random()*10);
+      product.inStock= Math.floor(Math.random()*10)+1;
       product.price= Number(parseFloat(Math.random()*100).toFixed(2));
       product.inCart= 1;
       product.image= 'https://www.ilac.com/wp-content/uploads/2019/06/placeholder-600x400.png';
     });
     return payload;
   case 'DELETE':
-    console.log('hey bfore map');
-    // eslint-disable-next-line array-callback-return
+    // console.log('hey bfore map')
     payload.results.map((product)=>{
-      product.inStock= Math.floor(Math.random()*10);
+      product.inStock= Math.floor(Math.random()*10)+1;
       product.price= Number(parseFloat(Math.random()*100).toFixed(2));
       product.inCart= 1;
       product.image= 'https://www.ilac.com/wp-content/uploads/2019/06/placeholder-600x400.png';
